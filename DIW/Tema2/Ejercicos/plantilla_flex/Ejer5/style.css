@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: lightgray;
+    padding: 1em;
+    justify-content: center;
+    height: 20%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 50.5em;
+}
+
+nav{
+    order: 0;
+    width: 60vh;
+    background-color: darkgray;
+    padding: 0.4em;
+}
+
+article{
+    order: 1;
+    width: 120vh;
+    background-color: gray;
+    padding: 1em 0;
+}
+
+article p{
+    padding-top: 1em;
+} 
+
+aside{
+    order: 2;
+    width: 60vh;
+    background-color: darkgray;
+    padding: 0.4em;
+}
+
+footer{
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    padding: 1em;
+    background-color: lightgray;
+    height: 20%;
+}

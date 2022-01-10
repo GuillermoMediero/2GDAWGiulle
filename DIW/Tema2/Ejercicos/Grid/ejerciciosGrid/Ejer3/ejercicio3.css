@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "head head head"
+    "nav main aside"
+    "foo foo foo";
+}
+
+header{   
+    background-color: lightgray;
+    padding: 1em;
+    grid-area: head;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: darkgray;
+    padding: 0.4em;
+    grid-area: nav;
+}
+
+main{
+    background-color: gray;
+    padding: 1em 0;
+    grid-area: main;
+}
+
+main p{
+    padding-top: 1em;
+} 
+
+aside{
+    background-color: darkgray;
+    padding: 0.4em;
+    grid-area: aside;
+}
+
+footer{
+    padding: 1em;
+    background-color: lightgray;
+    grid-area: foo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div{
+	height: 100vh;
+	background-image: url(imagenes/ribbon.png), url(imagenes/decoration.png), url(imagenes/old_paper.jpg);
+	background-position: 100% 100%, 0% 0%, 0% 0%;
+	background-repeat: no-repeat;
+	background-size: auto, 20%, auto;
+}
+p{
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	font-size: 2em;
+	font-weight: bold;
+}

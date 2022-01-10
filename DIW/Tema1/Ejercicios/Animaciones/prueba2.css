@@ -1,0 +1,48 @@
+body{
+    width: 850px;
+    height: 800px;
+}
+.uno{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: cajauno;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes cajauno {
+    0%{background-color: green; margin-top: 0px; margin-left: 0px;}
+    14%{background-color: cyan; margin-left: 0px; margin-top: 400px;}
+    28%{background-color: blue; margin-left: 350px; margin-top: 400px;}
+    42%{background-color: violet;margin-left: 350px; margin-top: 450px;}
+    56%{background-color: red; margin-left: 450px; margin-top: 450px;}
+    70%{background-color: orange;margin-top:350px; margin-left: 450px;}
+    84%{background-color: yellow;margin-top: 350px; margin-left: 0px;}
+    100%{background-color: green; margin-top: 0px; margin-left: 0px;}
+}
+
+.dos{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: cajados;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes cajados {
+    0%{background-color: green; margin-top: 600px; margin-left: 800px;}
+    14%{background-color: cyan; margin-left: 800px; margin-top: 400px;}
+    28%{background-color: blue; margin-left: 450px; margin-top: 400px;}
+    42%{background-color: violet;margin-left: 450px; margin-top: 350px;}
+    56%{background-color: red; margin-left: 350px; margin-top: 350px;}
+    70%{background-color: orange;margin-top: 450px; margin-left: 350px;}
+    84%{background-color: yellow;margin-top: 450px; margin-left: 600px;}
+    100%{background-color: green; margin-top: 600px; margin-left: 800px;}
+}

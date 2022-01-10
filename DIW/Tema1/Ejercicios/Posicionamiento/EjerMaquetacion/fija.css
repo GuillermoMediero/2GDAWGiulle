@@ -1,0 +1,32 @@
+body{
+	width: 960px;
+}
+h1{
+	text-align: center;
+}
+.derecha{
+	float: left;
+	width: 260px;
+}
+.izquierda{
+	float: right;
+	width: 700px;
+}
+.tercero{
+	list-style:none;
+	float: left;
+	width: 230px;
+}
+.primero{
+	list-style:none;
+	float: left;
+	width: 230px;
+}
+.segundo{
+	float:left;
+	list-style:none;
+	width: 230px;
+}
+ul{
+	padding: 0;
+}

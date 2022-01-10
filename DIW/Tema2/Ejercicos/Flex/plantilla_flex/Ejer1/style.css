@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+}
+
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lang{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.lang_it{ 
+    background-color: gray;
+    width: 40%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.lang_it a{
+    color: white;
+    text-decoration: none;
+}
+

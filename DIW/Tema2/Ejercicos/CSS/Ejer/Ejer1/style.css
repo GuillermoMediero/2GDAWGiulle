@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 1em;
+}
+
+p{
+    background-image: url(Imagenes/decoration.png), url(Imagenes/ribbon.png),url(Imagenes/old_paper.jpg) ;
+    background-position: top left,  bottom right, center center;
+    background-origin: border-box, content-box;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 40vh;
+    text-align: right;
+}

@@ -1,0 +1,111 @@
+/* Generales */
+html * {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Principal */
+.principal {
+    height: 100vh;
+}
+
+/* Cabecera */
+.cabecera {
+    background-color: aquamarine;
+    grid-area: cabecera;
+}
+
+/* Contenido */
+.contenido {
+    background-color: aliceblue;
+    grid-area: contenido;
+}
+
+.contenido__img {
+    width: 100%;
+    height: auto;
+}
+
+/* Izquierda */
+.izquierda {
+    background-color: beige;
+    grid-area: izquierda;
+}
+
+/* Anexos */
+.anexo1 {
+    background-color: goldenrod;
+    grid-area: anexo1;
+}
+
+.anexo2 {
+    background-color: darkcyan;
+    grid-area: anexo2;
+}
+
+/* Derecha */
+.derecha {
+    background-color: bisque;
+    grid-area: derecha;
+}
+
+/* Pie */
+.pie {
+    background-color: black;
+    color: white;
+    grid-area: pie;
+}
+.principal > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+article{
+    flex-direction: column;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr auto 2fr 2fr 1fr 1fr;
+    grid-template-areas: 
+    "cabecera"
+    "izquierda"
+    "contenido"
+    "anexo1"
+    "anexo2"
+    "derecha"
+    "pie";
+}
+@media (min-width: 601px){
+.principal{
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 2fr auto 4fr 1fr;
+    grid-template-areas: 
+    "cabecera cabecera cabecera"
+    "izquierda contenido contenido"
+    "derecha anexo1 anexo2"
+    "pie pie pie";
+}
+}
+@media (min-width: 901px){
+.principal{
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 2fr auto 3fr 1fr;
+    grid-template-areas: 
+    "cabecera cabecera cabecera cabecera"
+    "izquierda contenido contenido derecha"
+    "izquierda anexo1 anexo2 derecha"
+    "pie pie pie pie";
+}   
+}

@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+ul li{
+    background-color: lightgray;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0.1em;
+    padding: 1em;
+}
+
+ul li a{
+    text-decoration: none;
+    align-self: center;
+    background-color: white;
+    padding: 0.2em;
+    color: black;
+}

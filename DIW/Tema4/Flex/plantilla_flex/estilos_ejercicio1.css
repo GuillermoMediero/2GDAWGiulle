@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul{
+	width: 30%;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+	color: lightgrey;
+	text-transform: uppercase;
+}
+.lang{
+	display: flex;
+	width: 10%;
+	justify-content: space-evenly;
+}
+.lang_it{
+	background-color: grey;
+	text-align: center;
+	width: 40%;
+	padding: 1em 0;
+}

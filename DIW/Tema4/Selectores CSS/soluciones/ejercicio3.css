@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+section{
+	width: 60%;
+	margin: 0 auto;
+	background-color: #DFDFDF;
+	padding: 1em;
+}
+section h1{
+	color:#4682B4 ;
+	border-bottom: 1px solid white;
+	padding: .5em .5em;
+	text-align: center;
+}
+section div{
+	border-bottom: 1px solid white;
+	margin-top: 1em;
+}
+section h3{
+	margin-top: 1em;
+}
+.ie::before{
+	content: url(images/ie.png);
+}
+.ie::after{
+	content: attr(title);
+	color: red;
+}
+.chrome::before{
+	content: url(images/chrome.png);
+}
+.chrome::after{
+	content: attr(title);
+	color: red;
+}
+.firefox::before{
+	content: url(images/firefox.png);
+}
+.firefox::after{
+	content: attr(title);
+	color: red;
+}
+h3::after, h3::before{
+	content: attr(title);
+	background-color: red;
+	border-radius: 1.5em;
+	margin: 0 2px;
+	padding: .5em;
+}

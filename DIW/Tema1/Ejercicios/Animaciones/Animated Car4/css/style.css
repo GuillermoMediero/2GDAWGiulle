@@ -1,0 +1,475 @@
+body {);color:red;height:100%;overflow:hidden;}
+header {
+  -o-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding:  0px 0;
+  position: fixed;
+  top: -15px;
+  width: 100%;
+text-align: center;
+text-shadow: 0px 0px #fff;  
+font-size:  6px;
+background: -moz-linear-gradient(top, #333 0%, rgba(53,02,01,1) 100%);
+  border-bottom: 3px solid #dad;  
+}
+
+.ap {
+position: fixed;
+right: 0;
+bottom: 0;
+left: 0;
+height: 60px;
+margin: auto;
+font-family: Arial, sans-serif;
+font-size: 10px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+text-align: center;
+text-shadow: 0px 0px #FFf;  
+font-size:  11px;
+background:  #ccc;
+border-top: 2px solid #;
+z-index: 9999;
+} 
+h2 {
+padding: 15px; 
+background: -webkit-linear-gradient(transparent 10%, goldenrod 50%, transparent 90%); 
+background: linear-gradient(transparent 10%, #666 50%, transparent 90%); 
+} 
+#M-2010, #teks, #posisi, #dibawah  {
+    position: absolute;
+    font-size: 11px;
+    margin: 2px
+}
+#M-2010, #teks div {
+    text-decoration: underline;
+    cursor: pointer
+}
+#teks, #posisi {
+    text-align: right;
+    right:  50px;
+}
+#teks, #dibawah {
+    text-align: left;
+    left:  50px;
+}
+ #dibawah, #posisi {
+    bottom: 17px;
+} 
+
+ html, body {
+  margin-top: -130px;
+  height: 80%
+}
+.animated {
+  width: 100%;
+  min-height: 550px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #222;
+margin-top:180px;
+}
+.play-1 {
+  -webkit-animation: effect linear 40s infinite both;
+          animation: effect linear 40s infinite both;
+  background: url(https://4.bp.blogspot.com/-uc_vxR3Tt0w/V2qw9kbJulI/AAAAAAAAbuA/ByMnwWehJesPas1xMAXelOrHUlkuQnJewCK4B/s1600/Pagar-Lampu-mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: -113px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 294px; 
+}
+.play-2 {
+  -webkit-animation: effect linear 12s infinite both;
+          animation: effect linear 12s infinite both;
+  background: url(https://4.bp.blogspot.com/-aDQCqxzhvXw/V22ocV5X98I/AAAAAAAAb9A/I_MW9JzF4VQb92peV8MbCtspqwZNBJi6QCK4B/s1600/aspal-mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: -16px;
+ 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 2px;
+}
+.play-2a {
+  -webkit-animation: effect linear 30s infinite both;
+          animation: effect linear 30s infinite both;
+  background: url(https://1.bp.blogspot.com/-25jeeSOOaIY/V22j95k-wAI/AAAAAAAAb8g/jFhg8VujvOMM0lzwbMSHPL0ya6g-pobtgCK4B/s1600/Lampu-mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 70px;
+}
+.play-3 {
+  -webkit-animation: effect linear 9s infinite both;
+          animation: effect linear 9s infinite both;
+  background: url(https://3.bp.blogspot.com/-rf6RXqhPlSY/V1vEA0U6gmI/AAAAAAAAbQk/v32D1GGRv3IKUyiTgaV-LXYII8On4w_KwCK4B/s1600/Ilalang-mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto  58px;
+}
+.play-4 {
+  -webkit-animation: effect linear 75s infinite both;
+          animation: effect linear 75s infinite both;
+  background: url(https://1.bp.blogspot.com/-5l07n2sHm-U/V2fllNRjf0I/AAAAAAAAbkQ/yBB3COIpj7MNHGoqZNT4KC9coklQSh0TwCK4B/s1600/utan-mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 398px;
+}
+.play-5 {
+  -webkit-animation: effect linear 95s infinite both;
+          animation: effect linear 95s infinite both;
+  background: url(https://4.bp.blogspot.com/-R5h6P_Mk7r8/V2qn5N2PI6I/AAAAAAAAbtc/XLeZGhQzH0IdEil2XIndLYvi8SH3O1xhgCK4B/s1600/Lampu-jalan-mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 311px;
+}
+.play-6 {
+  -webkit-animation: effect linear 120s infinite both;
+          animation: effect linear 120s infinite both;
+  background: url(https://1.bp.blogspot.com/-DcsRLnDDaJI/V2f2QkZ9ykI/AAAAAAAAbk4/BAONJM-GohoPguANBVPPUQOWtcZkYBudgCK4B/s1600/Cemara-3-Mys2010.png) 0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 322px;
+}
+.mobilan-1 
+  {
+  background: url(https://1.bp.blogspot.com/-fnxqM_XQPUE/V2tqwPafdLI/AAAAAAAAbw8/SZ17-JqmRXE0GGNbYTln68NNMk5gOpbuQCK4B/s1600/sedan1-mys2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+}
+.mobilan-2 {
+  background: url(https://3.bp.blogspot.com/-kMrXIWpF5LA/V2toVk5bjJI/AAAAAAAAbws/ZSfXK3u8wPs3nyDgFXdvVrSvFkFHxo1fgCK4B/s1600/sedan2-mys2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+}
+.mobilan-3 {
+  background: url(https://3.bp.blogspot.com/-UWFbu846NrQ/V2wEcgTaNbI/AAAAAAAAb0w/kyryv9mkD949X19nZ6tjsyKuYtaAZZffwCK4B/s1600/bus-cibeber-m2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 105px;
+}
+.mobilan-4 {
+  background: url(https://3.bp.blogspot.com/--ypC5h-d3DU/V2l0g9T8DmI/AAAAAAAAbrI/eT0CgsgCk9weTnAMX0cc7o4syiNjESSPACK4B/s1600/TR-2010.png) 0 100% no-repeat;
+ z-index: 1;
+  position: absolute;
+  bottom:  8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 95px;
+}
+.mobilan-5 {
+  background: url(https://1.bp.blogspot.com/-vW8rdL7UUMU/V2tth7U0KeI/AAAAAAAAbxI/wONrxTkXX6MSgrTAxJ7pbdaRQK9x98RDgCK4B/s1600/sedan3--mys2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+}
+.mobilan-6 {
+  background: url(https://1.bp.blogspot.com/-MLsEobDFz1I/V2wVRr2kRkI/AAAAAAAAb1g/YoGRMSmbVlo6mYZEyU2kGZ4tmFVZXrGtwCK4B/s1600/bus-cibeber2-m2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 105px;
+}
+.mobilan-7 {
+  background: url(https://3.bp.blogspot.com/-48TRm7phzUY/V2wPpAWgQbI/AAAAAAAAb1I/K-Ls9_3tIZ8NP33aq-J4p-qKS-nB1Lp3wCK4B/s1600/Tr-cibeber-m2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 17px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 95px;
+}
+.mobilan-8 {
+  background: url(https://4.bp.blogspot.com/-H3aQ7rUy-wU/V2zOWM_Zz_I/AAAAAAAAb4o/SZdHUJXHXCcwJDGaz21ZW5yRr67sOXqvACK4B/s1600/Motor1-Mys2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 78px;
+}
+.mobilan-9 {
+  background: url(https://1.bp.blogspot.com/-ETE2IcYueZM/V21yAyhmJnI/AAAAAAAAb7o/ELo7RW_5jSw_ynCjYcrN0NRFbzBtvaYcwCK4B/s1600/Alvar-Bautista-M2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+}
+.mobilan-10 {
+  background: url(https://1.bp.blogspot.com/-UgUf5mZxUQ4/V2z07AXeAVI/AAAAAAAAb5Q/4U8d6OOQImYdBLmVWvhIFblUXLTRDNq_wCK4B/s1600/Motor2-Mys2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+}
+.mobilan-11 {
+  background: url(https://4.bp.blogspot.com/--wIlML9n6KQ/V213dmBmuJI/AAAAAAAAb74/R7LQ-8vvoEgm4dapgsi44TDouaPN608GwCK4B/s1600/Motor2-Mys2010.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom:   1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+}
+.mobilan-1 {
+  -webkit-animation: effect_mobilan linear 20s infinite both;
+          animation: effect_mobilan linear 20s infinite both;
+}
+
+.mobilan-2 {
+  -webkit-animation: effect_mobilan linear 15s infinite both;
+          animation: effect_mobilan linear 15s infinite both;
+}
+.mobilan-3 {
+  -webkit-animation: effect_mobilan linear 70s infinite both;
+          animation: effect_mobilan linear 70s infinite both;
+}
+.mobilan-4 {
+  -webkit-animation: effect_mobilan linear 90s infinite both;
+          animation: effect_mobilan linear 90s infinite both;
+}
+
+.mobilan-5 {
+  -webkit-animation: effect_mobilan linear 12s infinite both;
+          animation: effect_mobilan linear 12s infinite both;
+}
+
+.mobilan-6 {
+  -webkit-animation: effect_mobilan linear 50s infinite both;
+          animation: effect_mobilan linear 50s infinite both;
+}
+
+.mobilan-7 {
+  -webkit-animation: effect_mobilan linear 100s infinite both;
+          animation: effect_mobilan linear 100s infinite both;
+}
+
+.mobilan-8 {
+  -webkit-animation: effect_mobilan linear 8s infinite both;
+          animation: effect_mobilan linear 8s infinite both;
+}
+
+.mobilan-9 {
+  -webkit-animation: effect_mobilan linear 11s infinite both;
+          animation: effect_mobilan linear 11s infinite both;
+}
+
+.mobilan-10 {
+  -webkit-animation: effect_mobilan linear 13s infinite both;
+          animation: effect_mobilan linear 13s infinite both;
+}
+
+.mobilan-11 {
+  -webkit-animation: effect_mobilan linear 12s infinite both;
+          animation: effect_mobilan linear 12s infinite both;
+}
+
+@-webkit-keyframes effect {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+@keyframes effect {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+@-webkit-keyframes effect_mobilan {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
+@keyframes effect_mobilan {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
+ 
+.kendaraan {
+  background: url(https://1.bp.blogspot.com/-e-RBjdNhkkQ/V2lgUje3xiI/AAAAAAAAbqU/pPDljITaJfwDBd3YZhMVjvITT3CyBw-WQCK4B/s1600/T-2-mys2010.gif);background-repeat:no-repeat;
+  width: 628px;  height:175px; 
+  position:absolute;
+  left:25%;top: 4px;  -webkit-transform: translate(-50%,-50%);  transform: translate(-50%,-50%);
+}
+.kendaraan-position {
+animation: catchup 180s ease-in-out infinite;  
+position: absolute;
+bottom: -9px;
+left: 50%;
+margin-left: -160px;
+}
+@keyframes catchup {
+0% {left: 10%}
+10% {left: 85%}
+100% {left: 10%}
+}
+@keyframes walk-cycle {  
+0% {background-position: -12px -10px; } 
+100% {background-position: -1950px -10px; } 
+}
+
+.kendaraan2 {
+  background: url(https://4.bp.blogspot.com/-BuKQjaMs-IU/V2wm53gyIPI/AAAAAAAAb3c/F9feSIal37Q_8k4QjNlBpGuIa9yIy4qPgCK4B/s1600/Tr-cibeber3-m2010.png);background-repeat:no-repeat;
+  width: 628px;  height:175px; 
+  position:absolute;
+  left:25%;top: 4px;  -webkit-transform: translate(-50%,-50%);  transform: translate(-50%,-50%);
+}
+.kendaraan2-position {
+animation: catchup 90s ease-in-out infinite;  
+position: absolute;
+bottom: -9px;
+left: 50%;
+margin-left: -160px;
+}
+@keyframes catchup {
+0% {left: 10%}
+10% {left: 85%}
+100% {left: 10%}
+}
+@keyframes walk-cycle {  
+0% {background-position: -12px -10px; } 
+100% {background-position: -1950px -10px; } 
+}
+/*end*/ 
+.code-1 
+ {
+  background: url(https://3.bp.blogspot.com/-rDUcDCsn3RA/V20htmz5MJI/AAAAAAAAb58/0UGmXypvtLA4j88IPwIga4vLKylamrKqQCK4B/s1600/Motor3-Mys2010s.png) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 67px;
+}
+
+.code-3 {
+  background: url(https://4.bp.blogspot.com/-Hmz6ndSfWkY/V21HNp1e5kI/AAAAAAAAb6s/jb744SbH9QQU7NpGGkOMHu_VaQaun4ijwCK4B/s1600/helicopter-mys2010.gif) 0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 400px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 35px;
+}
+
+.code-1 {
+  -webkit-animation: effect_code linear 10s infinite both;
+          animation: effect_code linear 10s infinite both;
+}
+
+.code-2 {
+  -webkit-animation: effect_code linear 15s infinite both;
+          animation: effect_code linear 15s infinite both;
+}
+
+.code-3 {
+  -webkit-animation: effect_code linear 215s infinite both;
+          animation: effect_code linear 215s infinite both;
+}
+
+@-webkit-keyframes effect {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+
+@keyframes effect {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+@-webkit-keyframes effect_code {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
+@keyframes effect_code {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}

@@ -1,0 +1,114 @@
+/* Generales */
+html * {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Principal */
+.principal {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr auto 1fr 1fr 1fr;
+    grid-template-areas: "head""lat1""cont""anx1""anx2""lat2""foo";
+}
+
+/* Cabecera */
+.cabecera {
+    background-color: aquamarine;
+    grid-area: head;
+}
+
+/* Contenido */
+.contenido {
+    background-color: aliceblue;
+    grid-area: cont;
+    text-align: center;
+}
+
+.contenido div{
+    width: 100%;
+}
+
+.contenido__img {
+    width: 100%;
+    height: auto;
+    padding: .5em;
+}
+
+/* Izquierda */
+.izquierda {
+    background-color: beige;
+    grid-area: lat1;
+}
+
+/* Anexos */
+.anexo1 {
+    background-color: goldenrod;
+    padding: .5em;
+    grid-area: anx1;
+}
+
+.anexo2 {
+    background-color: darkcyan;
+    padding: .5em;
+    grid-area: anx2;
+}
+
+/* Derecha */
+.derecha {
+    background-color: bisque;
+    grid-area: lat2;
+    padding: 1em;
+}
+
+/* Pie */
+.pie {
+    background-color: black;
+    color: white;
+    grid-area: foo;
+    padding: 1em;
+}
+
+.principal > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px){
+    .principal {
+        grid-template-rows: 1fr auto 2fr 1fr;
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-areas: "head head head"
+        "lat1 cont cont"
+        "lat2 anx1 anx2"
+        "foo foo foo";
+    }
+}
+
+@media screen and (min-width: 900px){
+    .principal {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-rows: 1fr auto 1fr 1fr;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        grid-template-areas: 
+        "head head head head"
+        "lat1 cont cont lat2"
+        "lat1 anx1 anx2 lat2"
+        "foo foo foo foo";
+    }
+
+}
+

@@ -1,0 +1,21 @@
+
+body{
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(3, 20px);
+    width: 70%;
+    height: 30%;
+}
+
+.container div{
+    background-color: purple;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

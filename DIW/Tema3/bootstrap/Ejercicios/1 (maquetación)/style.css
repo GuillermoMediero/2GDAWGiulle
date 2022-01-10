@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+img{
+    padding-top: .75rem;
+}
+.cabecera {
+    background-color: aquamarine;
+}
+.contenido {
+    background-color: aliceblue;
+}
+.lateral1 {
+    background-color: beige;
+}
+.anexo1 {
+    background-color: goldenrod;
+}
+
+.anexo2 {
+    background-color: darkcyan;
+}
+
+.lateral2{
+    background-color: bisque;
+}
+.pie {
+    background-color: black;
+    color: white;
+}

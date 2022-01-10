@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+section{
+	background-color: #DFDFDF;
+	padding: 1em 0;
+}
+.nth-of-type, .nth-child, .UI{
+	width: 48%;
+	margin: 0 auto;
+}
+h1{
+	color:#4682B4 ;
+	border-bottom: 1px solid white;
+	padding: .5em .5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.types{
+	display: flex;
+	justify-content: space-between;
+}
+.nth-of-type div, .nth-of-type li{
+	padding: 3px 16px;
+	margin: 3px 0;
+	border: 1px solid black;
+}
+li{
+	list-style-type: none;
+	padding: .2em 1em;
+	margin: .2em 0;
+}
+
+.UI{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.UI h1{
+	align-self: stretch;
+}
+form{
+	width: 50%;
+}
+form div{
+	display: flex;
+	justify-content: stretch;
+	flex-direction: column;
+}
+form div:nth-child(2){
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+form input[type="text"], form input[type="email"], form textarea{
+	border: 2px solid steelblue;
+	margin: 1em auto;
+	width: 100%;
+	color: grey;
+	padding: .5em;
+}
+form input[type="radio"] + label{
+	color: steelblue;
+}
+form input[type="submit"]{
+	border: 2px solid white;
+	background-color: steelblue;
+	padding: 1em 2em;
+	color: white;
+}
+
+/*---Parte 3 del ejercicio---*/
+
+.nth-of-type div:nth-of-type(2n+1){
+	background-color: orange;
+	color: white;
+	font-size: 2em;
+}
+.nth-of-type li:nth-of-type(2n+1){
+	background-color: blue;
+	color: white;
+	font-size: 2em;
+}
+strong{
+	color: red;
+	font-size: 2em;
+}
+
+/*---Parte 4 del ejercicio---*/
+
+.nth-child li:nth-child(2n+1){
+	background-color: green;
+	color: white;
+}
+.nth-child li:nth-child(2n){
+	background-color: red;
+	color: white;
+}
+
+/*---Parte 5 del ejercicio---*/
+
+form :disabled{
+	background-color: #666;
+	cursor: no-drop;
+}
+
+form input[type="email"]:enabled{
+	background-color: yellow;
+	color: green;
+}
+
+form input[type="radio"]:checked + label{
+	font-weight: bold;
+	color: black;
+	border: 1px solid steelblue;
+}
+
+form input[type="submit"]:hover{
+	color: steelblue;
+	background-color: white;
+	border-color: steelblue;
+}

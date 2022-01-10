@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: gray;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    border-bottom-right-radius: 100px 100px;
+}
+
+.b{
+    border-bottom-right-radius: 100px 50px;
+}
+
+.c{
+    border-bottom-right-radius: 50px 200px;
+}
+
+.d{
+    border-radius:20px 150px;
+}
+
+.e{
+    border-radius: 50px 20px / 20px 50px;
+}
+
+.f{
+    border-radius: 50%;
+}

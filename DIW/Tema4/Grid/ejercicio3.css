@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 2fr 70% 1fr ;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+header, footer{
+	background-color: lightgrey;
+	grid-column: 1/4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav, aside{
+	padding: 1em;
+	background-color: grey;
+}
+main{
+	padding-top: 1.5em;
+	background-color: darkgrey;
+}

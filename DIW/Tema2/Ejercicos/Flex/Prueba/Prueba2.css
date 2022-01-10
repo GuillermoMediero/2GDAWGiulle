@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    height: 10%;
+    width: 10%;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+}
+.item{
+     background-color: lightblue;
+     border: 1px solid white;
+ }
+
+ /*
+ .container{
+    display: flex;
+    width: 10%;
+    flex-direction: row-reverse;
+    color: white;
+}
+*/

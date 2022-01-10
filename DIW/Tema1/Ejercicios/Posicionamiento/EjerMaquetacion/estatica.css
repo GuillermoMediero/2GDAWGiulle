@@ -1,0 +1,32 @@
+body{
+	width: 60em;
+}
+h1{
+	text-align: center;
+}
+.derecha{
+	float: left;
+	width: 16em;
+}
+.izquierda{
+	float: right;
+	width: 44em;
+}
+.tercero{
+	list-style:none;
+	float: left;
+	width: 14em;
+}
+.primero{
+	list-style:none;
+	float: left;
+	width: 14em;
+}
+.segundo{
+	float:left;
+	list-style:none;
+	width: 14em;
+}
+ul{
+	padding: 0;
+}

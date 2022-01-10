@@ -1,0 +1,35 @@
+body{
+	text-align: center;
+	color:#FFF;
+}
+
+.container{
+	text-align: center;
+}
+
+.header, .footer {
+	background: green;
+
+}
+
+.gris{
+	background-color: gray;
+}
+
+.grisclaro{
+	background-color: lightgray;
+}
+
+.azulclaro {
+	background: lightblue;
+}
+
+.naranja {
+	background: orange;
+
+}
+
+.azul {
+	background: blue;
+
+}

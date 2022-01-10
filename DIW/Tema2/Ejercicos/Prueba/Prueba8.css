@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100px;
+    padding: 0.5em;
+    background-color: blue;
+    color: white;
+}
+
+.container div{
+    background-color: lightblue;
+    border: 1px solid white;
+ }
+
+.item1{
+    flex-basis: 120px;
+}
+
+.item2{
+    flex-basis: 220px;
+}

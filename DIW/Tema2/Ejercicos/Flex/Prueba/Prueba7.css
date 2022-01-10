@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100px;
+    padding: 0.5em;
+    background-color: blue;
+    color: white;
+}
+
+.container div{
+    background-color: lightblue;
+    border: 1px solid white;
+ }
+
+.item1{
+    flex-grow: 5;
+}
+
+ /*
+
+.item1{
+    flex-grow: 2;
+}
+.item2{
+    flex-grow: 3;
+}
+
+.item3{
+    flex-grow: 5;
+}
+*/

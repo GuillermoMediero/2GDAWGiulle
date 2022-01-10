@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 100px;
+    padding: 0.5em;
+    background-color: blue;
+    color: white;
+}
+
+.item{
+     background-color: lightblue;
+     border: 1px solid white;
+ }
+
+ /*
+
+.container{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 100px;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 100px;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 100px;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+}
+*/

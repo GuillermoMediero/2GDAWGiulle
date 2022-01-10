@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 10%;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+}
+.item{
+     background-color: lightblue;
+     border: 1px solid white;
+ }
+
+ /*
+ .container{
+    display: flex;
+    flex-warp: wrap;
+    width: 10%;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+}
+*/

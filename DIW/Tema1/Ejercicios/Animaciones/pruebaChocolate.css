@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+
+}
+
+body{
+    width: 100%;
+    font-size: 100%;;
+    font-family: Confortaa;
+}
+
+p{
+    font-size: 0.8125em;
+}
+ 
+#titulos{
+    font-size: 1.38461538em ;
+}
+
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    clear: both;
+}
+
+footer p {
+    padding: 0.8%;
+}
+
+#logo{
+    padding: 0.8em;
+    height: 100%;
+    width: 15%;
+    margin: 0 40%;
+    display: block;
+
+}
+
+#login{
+    padding: 0.8em;
+    float: right;
+    height: 100%;
+    max-width: 20%;
+}
+
+#login label input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 0.2em solid black;
+    width: 80%;
+    outline: 0;
+    padding-left: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+
+}
+
+#login label input::placeholder{
+    color: black;
+}
+
+#login input{
+    background: lightgrey;
+    border: 0.2em solid black;
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 80%;
+
+}
+
+
+#menu{
+    width: 4%;
+    padding: 0.8em;
+    float: left;
+}
+
+nav{
+    box-sizing: content-box;
+    width: 100%;
+    min-width: 100%;
+    min-height: 10%;
+    background-color: #F3E5AB ;
+    background-image: linear-gradient(#F3E5AB, #614015);
+    position: fixed;
+}
+
+
+#main{
+    width: 100%;
+    background-color: orchid;
+}
+
+#cuatroPartes{
+    margin-top: 15%;
+    width: 100%;
+    background-color: orange;
+    float: left;
+    display: flex;
+}
+
+#tresPartes{
+    width: 50%;
+    float: left;
+    background-color: pink;
+    min-height: 100%;
+}
+
+#fotoGrande{
+    width: 50%;
+    float: left;
+    display: flex;
+    background-image: url(foto.jpg);
+    animation-name: cambio;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cambio {
+    0%{background-image: url(foto.jpg);}
+    15%{background-image: url(foto1.jpg);}
+    30%{background-image: url(foto1.jpg);}
+    45%{background-image: url(foto2.jpg);}
+    60%{background-image: url(foto2.jpg);}
+    70%{background-image: url(foto3.jpg);}
+    80%{background-image: url(foto3.jpg);}
+    90%{background-image: url(foto.jpg);}
+    100%{background-image: url(foto.jpg);}
+}
+
+#textoRectangulo{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5em solid #6B000E;
+}
+
+#textoRectangulo p{
+    margin: auto 5%;
+}
+
+#fotoPeque{
+    width: 50%;
+    float: left;
+    display: flex;
+    min-height: 50%;
+
+}
+
+#fotoPeque img{
+    width: 100%;
+}
+
+#textoPeque{
+    width: 50%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    min-height: 50%;
+    max-height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+#textoPeque p{
+    margin: auto 10%;
+    max-height: 50%;
+    display: flex;
+    
+}
+
+#dosPartes{
+    width: 100%;
+    float: left;
+    display: flex;
+    border-top:0.5em solid #6B000E ;
+}
+
+#fotoGrande2{
+    width: 50%;
+    float: left;
+    display: flex;
+
+}
+#tresPartes2{
+    width: 50%;
+    float: right;
+    background-color: pink;
+    min-height: 100%;
+}
+
+#fotoGrande2 img{
+    width: 100%;
+}
+
+#textoRectangulo2{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5em solid #6B000E;
+}
+
+#textoRectangulo2 p{
+    margin: auto 5%;
+}
+
+#fotoPeque2{
+    width: 50%;
+    float: right;
+    display: flex;
+    min-height: 50%;
+
+}
+
+#fotoPeque2 img{
+    width: 100%;
+}
+
+#textoPeque2{
+    width: 50%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    min-height: 50%;
+    max-height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+#textoPeque2 p{
+    margin: auto 10%;
+    max-height: 50%;
+    display: flex;
+    
+}
+
+
+#chocolates{
+    width: 100%;
+    float: left;
+    display: flex;
+    border-top:0.5em solid #6B000E ;
+}
+
+#chocolates img{
+    width: 100%;
+    
+}
+#maquina{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    border-top:0.5em solid #6B000E ;
+}
+
+#maquina p {
+    margin: auto 5%;
+}
+
+#formulario{
+    border-top:0.5em solid #6B000E ;
+    padding: 2em;
+    padding-left: 12em;
+    padding-right: 12em;
+    background-color: white;
+}
+
+
+#formulario label input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 0.2em solid gray;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    outline: 0;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+#formulario input{
+    background: lightgrey;
+    border: 0.2em solid gray;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+#mapa{
+    background-color: white;
+    padding-left: 15em;
+    padding-right: 15em;
+    text-align: center;
+}
+#mapa iframe{
+    padding: 0.5em;
+}
+
+
+
+@media screen and (max-width : 980px){ 
+   
+}
