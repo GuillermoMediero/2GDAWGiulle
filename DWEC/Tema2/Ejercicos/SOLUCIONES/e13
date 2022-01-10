@@ -1,0 +1,8 @@
+let piramide = "";
+for(let nro = 1; nro < 10; nro++)
+{
+    for(let repeticiones = 0; repeticiones < nro;repeticiones++)
+       piramide = piramide + nro;
+    piramide += "\n";
+}
+alert(piramide);

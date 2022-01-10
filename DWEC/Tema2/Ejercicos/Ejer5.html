@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="num1">
+<input type="text" id="num2">
+<input type="button" value="Pulse" onclick="responder()">
+
+	<script type="text/javascript">
+
+	function responder(){	
+		var num1 = document.getElementById("num1").value;
+		var num2 = document.getElementById("num2").value;
+		sum = parseInt(num1); + parseInt(num2);;
+		res = num1 - num2;
+		div = num1 / num2;
+		mult = num1 * num2;
+		alert("La suma es de " + sum + ", la resta es de " + res + ", la division es de " + div + " y la multiplicacion es de " + mult)
+		}	
+	</script>
+</body>
+</html>

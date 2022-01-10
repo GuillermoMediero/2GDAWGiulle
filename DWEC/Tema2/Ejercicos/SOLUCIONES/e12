@@ -1,0 +1,17 @@
+var nro = 0, suma = 0;
+while (nro != null)
+{
+    nro = prompt("Teclea un número");
+    if (nro != null) // == null significa que ha pulsado cancelar
+    {
+        // Es un número?
+        nro = parseInt(nro);
+        if (isNaN(nro))
+            alert("Hay que teclear números");
+        else
+            suma += nro;
+    }
+}
+alert("La suma de todos los números tecleados es: " + suma);
+
+// isNaN es true cuando no es un número o cuando pulsa cancelar.

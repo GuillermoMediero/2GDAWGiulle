@@ -1,0 +1,3 @@
+var cadena1 = prompt("Teclea la primera cadena", "cadena uno");
+var cadena2 = prompt("Teclea la segunda cadena", "cadena dos");
+alert (cadena1 + cadena2);

@@ -1,0 +1,13 @@
+// Declaración
+let arraySueldos = new Array(5);
+// llenado
+// for in no funciona
+let x;
+for(x = 0; x < 5; x++)
+    arraySueldos[x] = parseInt(prompt("Teclea un sueldo"));
+// Recorrido
+let total = 0;
+for(elemento of arraySueldos)
+    total += elemento;
+// Salida
+alert(" El total de sueldos asciende a: " + total);

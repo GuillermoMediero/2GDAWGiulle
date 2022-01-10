@@ -1,0 +1,12 @@
+let letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'];
+let dniCompleto = prompt("Teclea un dni");
+// Separación
+let letra = dniCompleto.charAt(8);
+let numeroDni = parseInt(dniCompleto.substring(0,8));
+// Comprobación
+const DIVISOR = 23;
+let resto = numeroDni % DIVISOR;
+if (letra === letras[resto])
+    alert("Dni correcto");
+else
+    alert("Dni incorrecto");

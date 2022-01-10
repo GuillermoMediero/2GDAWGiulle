@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		class Persona {	
+			constructor(dni,numSegSoc,nombre,apellidos,fechNac,edad,estCiv){
+				this.dni = dni;
+				this.numSegSoc = numSegSoc;
+				this.nombre = nombre;
+				this.apellidos = apellidos;
+				this.fechNac = fechNac;
+				this.Edad = edad;
+				this.estCiv = estCiv;
+			}
+
+			casarse(){
+
+			}
+
+			divorciarse(){
+
+			}
+
+			cumplirAños(){
+
+			}
+		}
+
+		class Vehiculo {
+			constructor(matricula,marca,modelo,color){
+				this.matricula = matricula;
+				this.marca = marca;
+				this.modelo = modelo;
+				this.color = color;
+			}
+
+
+		}
+		var personas = new Array(5);	
+		let per = new Persona();	
+			for(var i = 0;i<personas.length; i++){
+					personas[i] = datosPersona();
+				}
+
+		alert(per.dni)
+
+		function datosPersona(){
+			per.dni= prompt("Escriba el dni de la persona");
+			per.numSegSoc = prompt("Escriba el numero de la seguridad social de la persona");
+			per.nombre = prompt("Escriba el nombre de la persona");
+			per.apellidos = prompt("Escriba el apellido de la persona");
+			per.fechNac = prompt("Escriba la fecha de nacimiento de la persona");
+			per.edad = prompt("Escriba la edad de la persona");
+			per.estCiv = prompt("Escriba el estado civil de la persona");
+		}
+
+	</script>
+</body>
+</html>

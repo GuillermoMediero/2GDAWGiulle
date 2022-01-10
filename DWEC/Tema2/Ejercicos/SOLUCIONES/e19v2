@@ -1,0 +1,9 @@
+// Porcentaje de vocales en una cadena.
+let cadena = prompt("Teclea una cadena de caracteres");
+// Convertir string en array. Cada carácter un elemento.
+var array = cadena.split('');
+let vocales = array.filter(elemento =>elemento == 'a' || elemento == 'e' || elemento == 'i' || elemento == 'o' || elemento == 'u');
+// Calcular el porcentaje
+let porcentaje = (vocales.length * 100)/cadena.length;
+// Salida
+alert("El porcentaje de vocales es del " + porcentaje + "%");

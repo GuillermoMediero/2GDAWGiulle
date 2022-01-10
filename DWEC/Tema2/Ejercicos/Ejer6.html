@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="num1">
+<input type="button" value="Pulse" onclick="responder()">
+
+	<script type="text/javascript">
+
+	function responder(){	
+		var num1 = document.getElementById("num1").value;
+		var cuadrado = Math.pow(num1,2);
+		var cubo = Math.pow(num1,3);
+		alert("El cuadrado de " + num1+ " es de " + cuadrado + " y el cubo es de " + cubo)
+		}	
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var sueldo = prompt("Escriba el sueldo actual");
+		var años = prompt("Escriba los años tarbajados en la empresa")
+
+		if(sueldo<500 && años >= 10){
+			sueldo = parseInt(sueldo) + (sueldo*20/100);
+			alert("El sueldo acutal con el 20% asciende a " + sueldo);
+		}	
+		else if(años<10){
+			sueldo =  parseInt(sueldo) + (sueldo*10/100)
+			alert("El sueldo actual con el 10% asciende a " + sueldo)
+		}
+		else{
+			alert("el sueldo actual no ha sufrido ningun cambio")
+		}
+	</script>
+</body>
+</html>

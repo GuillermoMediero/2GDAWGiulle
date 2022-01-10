@@ -1,0 +1,14 @@
+// Declaración
+let arraySueldos = [0,0,0,0,0];
+// llenado
+let x;
+for(x = 0; x < 5; x++)
+    arraySueldos[x] = parseInt(prompt("Teclea un sueldo"));
+// Recorrido
+let total = 0;
+arraySueldos.forEach(function(elemento)
+{
+    total += elemento
+});
+// Salida
+alert(" El total de sueldos asciende a: " + total);

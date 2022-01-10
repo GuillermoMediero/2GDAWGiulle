@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var dia = 0; 
+
+		for(var i = 2030; i <= 2050; i++){
+			var fecha = new Date(i,0,1);
+			var domingo=fecha.getDay();
+			if(domingo==0){
+				document.write(fecha + "<br>");
+				dia++
+			}
+		}
+			document.write("Disponemos de " + dia + " domingos")
+	</script>
+</body>
+</html>

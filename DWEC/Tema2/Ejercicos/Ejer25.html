@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var cadena = prompt("Escribe una cadena de caracteres.")
+			if(cadena == cadena.toUpperCase()){
+				alert("El texto esta en mayusculas")
+			}
+			else if(cadena == cadena.toLowerCase()){
+				alert("El texto esta en misnusculas")
+			}
+			else{
+				alert("El texto esta tanto en misnusculas como en mayusculas")
+			}
+		var subcadena = prompt("Teclee una subcadena");
+
+		if (cadena.indexOf(subcadena) !== -1){
+			alert("Exsiste la subcadena ");
+		}
+		else
+			alert("No exsite la subcadena");
+
+		let arr = cadena.split('');
+		alert(arr);
+
+		let arr2 = cadena.split(" ");
+		alert(arr2);
+
+
+		if(cadena.search("b") !==1)
+			cadena=cadena.replace(/[v]/gi,"b");
+
+		alert("Frase en la cual se ha sustituido la v po b: " + cadena);
+
+		do{
+			cadena = cadena + ".";
+		}while(cadena.length<20)
+		
+		alert(cadena)
+
+	</script>
+</body>
+</html>

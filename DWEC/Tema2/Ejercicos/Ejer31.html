@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+		class Persona {	
+			constructor(dni,numSegSoc,nombre,apellidos,fechNac,edad,estCiv){
+				this.dni = dni;
+				this.numSegSoc = numSegSoc;
+				this.nombre = nombre;
+				this.apellidos = apellidos;
+				this.fechNac = fechNac;
+				this.Edad = edad;
+				this.estCiv = estCiv;
+			}
+
+			casarse(){
+
+			}
+
+			divorciarse(){
+
+			}
+
+			cumplirAños(){
+
+			}
+		}
+
+		class Vehiculo {
+			constructor(matricula,marca,modelo,color){
+				this.matricula = matricula;
+				this.marca = marca;
+				this.modelo = modelo;
+				this.color = color;
+			}
+		}
+
+		class Coche extends Vehiculo {
+			constructor(matricula,marca,modelo,color){
+				super(matricula,marca,modelo,color)
+			}
+		}
+
+		class Moto extends Vehiculo {
+			constructor(matricula,marca,modelo,color){
+				super(matricula,marca,modelo,color)
+			}
+		}
+		var personas = new Array(5);	
+		let per = new Persona();	
+			do{
+				for(var i = 0;i<personas.length; i++){
+						per.dni= prompt("Escriba el dni de la persona");
+						per.numSegSoc = prompt("Escriba el numero de la seguridad social de la persona");
+						per.nombre = prompt("Escriba el nombre de la persona");
+						per.apellidos = prompt("Escriba el apellido de la persona");
+						per.fechNac = prompt("Escriba la fecha de nacimiento de la persona");
+						per.edad = prompt("Escriba la edad de la persona");
+						per.estCiv = prompt("Escriba el estado civil de la persona");
+					personas[i] =per ;
+				}
+			}while(i == 5);
+
+		var vehiculos = new Array(5);
+		let veh = new Vehiculo();
+			do{
+				for (i = 0; i < vehiculos.length; i++) {
+					veh.matricula = prompt("Escriba la matricula de su Vehiculo");
+					veh.marca = prompt("Escriba la marca de su vehiculo");
+					veh.modelo = prompt("Escriba el modelo de su vehiculo");
+					veh.color = prompt("Escriba el color de su vehiculo");
+				}
+			}while(i == 5);
+
+
+		alert(personas[0])
+	</script>
+	</body>
+	</html>

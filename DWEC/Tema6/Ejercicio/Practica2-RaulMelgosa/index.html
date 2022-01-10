@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Entrar</title>
+</head>
+<body>
+    <div id="wrapper">
+        <main>
+            <div class="acceso">
+                <section>
+                    <h2>Acceso Banca online</h2>
+                    <p>Indica tu DNI y clave para acceder</p> 
+                </section>
+                <div>
+                    <input type="text" id="dni" placeholder="DNI / NIF / NIE">
+                    <input type="password" id="clave" placeholder="Clave" readonly value="">
+                    <button id="entrar">Entrar</button>
+                </div>
+                
+            </div>
+            <div class="clave">
+                <p>Clave</p>
+                <div id="botones"></div>
+                <button id="retroceso">←</button>
+            </div>
+        </main>
+    </div>
+<script src="./jquery-3.6.0.js"></script>
+<script src="./index.js"></script>
+</body>
+
+</html>

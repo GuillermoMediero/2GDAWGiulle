@@ -1,0 +1,10 @@
+let nombre;
+let edad;
+let incremento;
+let nuevaEdad;
+nombre = prompt("Teclea el nombre");
+edad = prompt("Teclea la edad");
+edad = parseInt(edad);
+incremento = parseInt(prompt("Teclea el incremento"));
+nuevaEdad = edad + incremento;
+alert(nombre + " tendrá " + nuevaEdad + " dentro de " + incremento + " años");

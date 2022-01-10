@@ -1,0 +1,5 @@
+let meses = ["Enero", "Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+let dias = [31,28,31,30,31,30,31,31,30,31,30,31];
+// Arrays coincidentes
+let mesNumero = parseInt(prompt("Teclea un mes en número"));
+alert("Has indicado " + meses[mesNumero - 1] + " que tiene " + dias[mesNumero - 1] + " dias");

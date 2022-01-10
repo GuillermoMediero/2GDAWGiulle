@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+		<script type="text/javascript">
+			var frase = prompt("Introduzca  una serie de caracteres").toLowerCase();
+			var contador = 0;
+
+			for(var i = 0; i<frase.length; i++){
+				switch(frase.charAt(i)){
+					case "u":
+						contador++;
+						break;
+					case "a":
+						contador++;
+						break;
+					case "e":
+						contador++;
+						break;
+					case "i":
+						contador++;
+						break;
+					case "o":
+						contador++;
+						break;			
+				}
+			}
+			var porcentaje = (contador*100)/frase.length;
+			alert("El porcentaje de vocales que hay en la frase es de " + porcentaje+ "%");
+		</script>
+</body>
+</html>

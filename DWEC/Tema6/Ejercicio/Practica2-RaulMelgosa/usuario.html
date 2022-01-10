@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bienvenido</title>
+</head>
+<body>
+    <div id="contenedor">
+        <button id="volver">VOLVER</button>
+        <select name="cuentas" id="cuentas"></select>
+        <select name="orden" id="orden">
+            <option value="nada" id="nada">--Selecciona una opcion--</option>
+            <option value="fecha" id="fecha">Ordenar por fecha</option>
+            <option value="importe" id="importe">Ordenar por importe</option>
+        </select>
+        <button id="verDatos">Ver los datos</button>
+        <br><br><br>
+        <div class="movimientos">
+            
+        </div>
+        <script src="./jquery-3.6.0.js"></script>
+        <script src="./usuario.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+// Par o impar
+const NRO = parseInt(prompt("Teclea un número"));
+if ((NRO % 2) == 0)
+    alert("El número es par");
+else
+    alert("El número es impar");

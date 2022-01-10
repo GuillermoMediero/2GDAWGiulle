@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="nombre">
+<input type="text" id="edad">
+<input type="text" id="incremento">
+<input type="button" value="Pulse" onclick="responder()">
+
+	<script type="text/javascript">
+
+	function responder(){	
+		var nombre = document.getElementById("nombre").value;
+		var num1 = document.getElementById("edad").value;
+		var num2 = document.getElementById("incremento").value;
+		sum = parseInt(num1) + parseInt(num2);
+		alert("La edad de " + nombre + " con el incremento es de " + sum)
+		}	
+	</script>
+</body>
+</html>

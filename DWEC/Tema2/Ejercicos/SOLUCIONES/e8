@@ -1,0 +1,12 @@
+let n1,n2,n3;
+n1 = parseInt(prompt("Teclea el primer número"));
+n2 = parseInt(prompt("Teclea el segundo número"));
+n3 = parseInt(prompt("Teclea el tercer número"));
+
+if (n1 > n2 && n1 > n3)
+    alert("El mayor número es el primero " + n1);
+else
+   if (n2 > n3)
+        alert("El mayor número es el segundo " + n2);
+   else
+        alert("El mayor número es el tercero " + n3);

@@ -1,0 +1,21 @@
+let texto = "";
+let contadorLineas = 0;
+for(let nro = 1; nro <= 50; nro ++)
+{
+   
+    texto += nro;
+    if ((nro % 4) == 0)
+        texto += " Multiplo de cuatro";
+    //else si es imposible que sea múltiplo de 4 y de 9
+    if ((nro % 9) == 0)
+        texto += " Multiplo de nueve";
+    texto += "\n" // <br>
+    contadorLineas++;
+    
+    if (contadorLineas==5)
+    {
+        texto += "_________________________\n";
+        contadorLineas = 0;
+    }
+}
+console.log(texto);

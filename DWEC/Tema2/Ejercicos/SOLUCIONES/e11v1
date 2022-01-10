@@ -1,0 +1,8 @@
+let cadenaEntrada, cadenaSalida = "";
+cadenaEntrada = prompt("Teclea una cadena de caracteres");
+while (cadenaEntrada != null)
+{
+    cadenaSalida = cadenaSalida + cadenaEntrada + " - ";
+    cadenaEntrada = prompt("Teclea una cadena de caracteres");
+}
+alert(cadenaSalida);

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var fecha = prompt("Cuando es tu fecha de nacimiento? Formato YYYY-MM-DD")
+
+		var hoy = new Date();
+		var cumpleaños = new Date(fecha);
+		var edad = hoy.getFullYear() - cumpleaños.getFullYear();
+
+		alert("Dispones de "+ edad + " años")
+	</script>
+</body>
+</html>

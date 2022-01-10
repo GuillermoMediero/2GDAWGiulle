@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var suma = 0;
+		do{
+			var num= prompt("Escribe un numero");
+			if(Number(num) == num){
+				num = Number(num)
+				suma = suma + num;
+			}		
+			else{
+				if(num != undefined){
+					alert("no es un numero valido")
+				}
+			}
+		} while(num != undefined)
+
+		document.write(suma);
+		
+	</script>
+</body>
+</html>

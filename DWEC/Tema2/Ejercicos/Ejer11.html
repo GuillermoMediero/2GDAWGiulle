@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var resultado = "";
+		do{
+			var caracteres= prompt("Escribe los caracteres que quieras hasta que pulse a cancelar");
+
+				resultado= resultado + caracteres +  "-" 
+
+		} while(confirm("¿Desea continuar?"))
+
+		document.write(resultado);
+	</script>
+</body>
+</html>

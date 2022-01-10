@@ -1,0 +1,2 @@
+let nombre = prompt("Teclea tu nombre");
+alert("Hola " + nombre);

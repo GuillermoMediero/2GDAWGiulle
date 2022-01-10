@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Acesso Banca Online</h1>
+    <p>Indica tu DNI y clave para acceder</p>
+    <input type="text" name="nif" placeholder="NIF/NIE"><br><br>
+    <input type="text" name="clave" placeholder="Clave" onclick="mostrarNumerosClave()" id="clave" readonly><br><br>
+    <fieldset id="claves">
+        <legend>Clave</legend>
+        <table>
+            <tr>
+                <td><button onclick="mostrarNumero()" id="boton1"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton2"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton3"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton4"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton5"></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mostrarNumero()" id="boton6"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton7"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton8"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton9"></button></td>
+                <td><button onclick="mostrarNumero()" id="boton10"></button></td>
+            </tr>
+        </table>
+    </fieldset><br>
+    <button onclick="acessoCuenta()">Entrar</button>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="ejer1.js"></script>
+</body>
+</html>

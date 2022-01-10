@@ -1,0 +1,6 @@
+let nro = parseInt(prompt("Teclea un número"));
+let factorial = 1;
+for ( let x = nro; x > 1; x--)
+    factorial = factorial * x;
+alert("El factorial de " + nro + " es " + factorial);
+    

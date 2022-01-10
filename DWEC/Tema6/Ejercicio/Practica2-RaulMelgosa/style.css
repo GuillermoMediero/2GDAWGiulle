@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#wrapper {
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border-radius: 40px;
+    padding: 40px;
+    min-height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.acceso {
+    flex-grow: 3;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10%;
+}
+
+.acceso section {
+    flex-grow: 4;
+}
+
+.acceso div {
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.acceso div > * {
+    flex-grow: 1;
+}
+
+.clave {
+    text-align: center;
+    font-size: 1.3em;
+    flex-grow: 2;
+}
+
+#botones {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#botones button {
+    font-size: 1.5em;
+}
+
+#retroceso {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.movimientos {
+    text-align: center;
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.movimientos span {
+    height: 100%;
+    width: 100%;
+    border: .5px solid gray;
+}
+
+#contenedor {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+}

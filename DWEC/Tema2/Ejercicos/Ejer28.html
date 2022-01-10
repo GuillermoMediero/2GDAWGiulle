@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var dni= prompt("Escriba su dni");
+		var nombre = prompt("Escriba su nombre");
+		var url = prompt("Escriba la url");
+		var ip = prompt("Escriba la IP");
+		var cadena = prompt("Escriba una serie de de caracteres");
+
+		var expresion_dni = /^\d{8}[a-zA-Z]$/;
+		var expresion_nombre=/^([A-Za-z])+$/;
+		var expresion_url= /^((ftp|http|https):\/\/)?www\.[A-Za-z]/;
+		var expresion_ip=/^([0-2]{0,1}[0-9]{0,1}[0-9]{1})\.([0-2]{0,1}[0-9]{0,1}[0-9]{1})\.([0-2]{0,1}[0-9]{0,1}[0-9]{1})/ ;
+
+		if (expresion_dni.test(dni)==true){
+			alert("El dni es correcto");
+		}
+		else{
+			alert("El dni no es correcto, corrigalo");
+		}
+
+		if (expresion_nombre.test(nombre)==true){
+			alert("El nombre es correcto");
+		}
+		else{
+			alert("El nombre no es correcto, corrigalo");
+		}
+
+		if (expresion_url.test(url)==true){
+			alert("La url es correcta")
+		}
+		else{
+			alert("La url es incorrecta, corrigalo")
+		}
+
+		if (expresion_ip.test(ip)==true){
+			alert("La IP es correcta")
+		}
+		else{
+			alert("La IP no es correcta, corrigalo")
+		}
+
+
+		if(cadena.search("a") !==1)
+			cadena=cadena.replace(/[a]/gi,"A");
+	    if(cadena.search("i") !==1)
+			cadena=cadena.replace(/[i]/gi,"I");
+		if(cadena.search("o") !==1)
+			cadena=cadena.replace(/[o]/gi,"O");
+		if(cadena.search("u") !==1)
+			cadena=cadena.replace(/[U]/gi,"U");
+		if(cadena.search("e") !==1)
+			cadena=cadena.replace(/[e]/gi,"E");
+
+		alert("La frase con las vocales en mayusculas: " + cadena);
+
+	</script>
+</body>
+</html>

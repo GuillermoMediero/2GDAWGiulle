@@ -1,0 +1,13 @@
+// Porcentaje de vocales en una cadena.
+let vocales = ["a","e","i","o","u"];
+let contador = 0;
+let cadena = prompt("Teclea una cadena de caracteres").toLowerCase();
+for(let x=0; x < cadena.length;x++)
+{
+    if (vocales.indexOf(cadena.charAt(x)) != -1)
+        contador++;
+}
+// Calcular el porcentaje
+let porcentaje = (contador * 100)/cadena.length;
+// Salida
+alert("El porcentaje de vocales es del " + porcentaje + "%");

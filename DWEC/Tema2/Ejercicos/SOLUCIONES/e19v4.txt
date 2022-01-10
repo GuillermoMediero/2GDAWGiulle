@@ -1,0 +1,9 @@
+// Porcentaje de vocales en una cadena.
+let cadena = prompt("Teclea una cadena de caracteres");
+
+var numeroVocales = cadena.match(/[aeiou]/gi).length;
+
+// Calcular el porcentaje
+let porcentaje = (numeroVocales * 100)/cadena.length;
+// Salida
+alert("El porcentaje de vocales es del " + porcentaje + "%");

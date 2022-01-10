@@ -1,0 +1,4 @@
+let nro = parseInt(prompt("Teclea un número"));
+let cuadrado = Math.pow(nro,2);
+let cubo = Math.pow(nro,3);
+alert("El doble de " + nro + " es " + cuadrado + " y el cubo " + cubo);

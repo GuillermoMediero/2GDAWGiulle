@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var hoy = new Date();
+		var navidad = new Date(2021,11,25);
+		var fecha = navidad.getTime() - hoy.getTime();
+		var dias = Math.round(fecha/(1000*60*60*24));
+
+		alert("Faltan " + dias + " dias para navidad")
+	</script>
+</body>
+</html>

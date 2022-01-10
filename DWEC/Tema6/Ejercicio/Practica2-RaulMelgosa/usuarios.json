@@ -1,0 +1,67 @@
+{
+    "usuarios": [
+      {
+        "dni": "12345678A",
+        "clave": 123,
+        "cuentas": [
+          {
+            "numero":101,
+            "movimientos": [
+              {
+                "fecha": {"dia": 19, "mes": 10, "anno": 2021},
+                "concepto": "recarga inicial",
+                "importe": 100,
+                "saldo": 100
+              }
+            ]
+          },
+          {
+            "numero":102,
+            "movimientos": [
+              {
+                "fecha": {"dia": 14, "mes": 3, "anno": 2016},
+                "concepto": "recarga inicial",
+                "importe": 1000,
+                "saldo": 1000
+              },
+              {
+                "fecha": {"dia": 15, "mes": 3, "anno": 2015},
+                "concepto": "patatas",
+                "importe": -10,
+                "saldo": 990
+              },
+              {
+                "fecha": {"dia": 20, "mes": 3, "anno": 2017},
+                "concepto": "recarga",
+                "importe": 25,
+                "saldo": 1015
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dni": "12345678B",
+        "clave": 123,
+        "cuentas": [
+          {
+            "numero":101,
+            "movimientos": [
+              {
+                "fecha": {"dia": 19, "mes": 10, "anno": 2021},
+                "concepto": "recarga inicial",
+                "importe": 100,
+                "saldo": 100
+              }
+            ]
+          }
+        ]
+      },{
+        "dni": "12345678C",
+        "clave": 123
+      },{
+        "dni": "12345678D",
+        "clave": 123
+      }
+    ]
+}

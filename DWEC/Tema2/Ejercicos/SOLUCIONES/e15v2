@@ -1,0 +1,14 @@
+// Recursividad. Una función se llama a si misma.
+
+let nro = parseInt(prompt("Teclea un número"));
+let factorial = calcularFactorial(nro);
+alert("El factorial de " + nro + " es " + factorial);
+
+function calcularFactorial(x)
+{
+    if ( x == 1)
+        return 1;
+    else
+        return x * calcularFactorial(x - 1);
+}
+    

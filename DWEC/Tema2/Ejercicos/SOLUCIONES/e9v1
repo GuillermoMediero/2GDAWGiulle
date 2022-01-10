@@ -1,0 +1,6 @@
+// Vocal o no
+let c = prompt("Teclea un carácter");
+if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u')
+    alert("Es una vocal");
+else
+    alert("No es una vocal");

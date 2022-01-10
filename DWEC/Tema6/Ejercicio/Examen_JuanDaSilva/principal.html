@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Juan Francisco Da Silva">
+    <title>Examen Juan - Principal</title>
+</head>
+<body>
+<h1 style="display: inline-block">Usuario:</h1>
+<h1 id="tituloPagina" style="display: inline-block"></h1>
+<button onclick="cerrarSesion()" style="margin-left: 20px">Cerrar Sesion</button>
+<hr>
+<h2>Publicar Tarea</h2>
+<input type="text" id="inputTitulo" placeholder="Titulo..." style="width: 40%; outline: 0">
+<input type="date" id="inputFecha" style="outline: 0"><br><br>
+<button type="button" id="publicar">Publicar</button>
+<br><br>
+<hr>
+<h2>Tareas Pendientes</h2>
+<div id="tareasPendientes">
+
+</div>
+<br>
+<button id="mostrarCompletadas">Mostrar tareas completadas</button>
+<button id="ocultarCompletadas">Ocultar tareas completadas</button>
+<br><br>
+<section id="apartadoCompletadas" style="display: none">
+    <hr>
+    <h2>Tareas completadas</h2>
+    <div id="tareasCompletadas">
+
+    </div>
+</section>
+<hr>
+
+</body>
+<script src="jquery-3.5.1.js"></script>
+<script src="principal.js"></script>
+</html>

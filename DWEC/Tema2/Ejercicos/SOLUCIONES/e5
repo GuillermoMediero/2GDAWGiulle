@@ -1,0 +1,16 @@
+// Entrada de datos
+let n1 = parseInt(prompt("Teclea el primer número",0));
+let n2 = parseInt(prompt("Teclea el segundo número",0));
+
+// Operaciones y salidas
+// Suma
+alert("El resultado de la suma es: "+ (n1+n2));
+// Resta
+let resta = n1 - n2;
+alert("El resultado de la resta es:" + resta);
+// Multiplicación
+alert("El resultado de la multiplicación es: " + (n1*n2));
+// División
+alert("El resultado de la división es: " + (n1/n2));
+// Resto
+alert("El resto de la división es: " + (n1%n2));

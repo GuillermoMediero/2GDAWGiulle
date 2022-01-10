@@ -1,0 +1,10 @@
+// Vocal o no
+let c = prompt("Teclea un carácter");
+switch(c)
+{
+    case 'a': case 'e': case 'i': case 'o': case'u':
+        alert("Es una vocal");
+        break;
+    default:
+        alert("No es una vocal");
+}

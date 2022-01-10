@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<script type="text/javascript">
+		var array1 = new Array(34,6,234,8,98);
+		var array2 = new Array();
+		do
+		{
+			for (var i = 0 ;array2.length; i++){
+				var num = prompt("Introduzca un numero que desees guardar");
+				array2[i] = parseInt(num);
+			}
+
+		}while(confirm("Desea añadir mas elementos?"));
+
+		do{
+			var menu = prompt("a) Mostrar los numeros pares del primer array\n" + 
+			"b) Buscar un valor tecleado por el usuario en el segundo array\n" +
+			"c) Mostrar todos los numeros mayores de 10 del primer array\n" + 
+			"d) Crear un string a partir de todos los datos del primer array\n" +
+			"e) Borrar el primer elemento, el ultimo y un elemento intermedio del array dos\n" +
+			"f) Unir los dos arrays formando solo uno\n" +
+			"g) Crear un nuevo array con todos los numeros impares del array uno\n" +
+			"h) Sumar un dos a cada uno de los elementos del array dos\n" +
+			"i) Duplicar los dos primeros elementos del primer array a partir de la posicion cuatro\n" +
+			"j) Guardar un 6 en cada una de las posiciones del array dos\n"+
+			"k) Mostrar el contenido de un array empezando por la ultima posicion y acabando por la primera\n" +
+			"l) Ordenar de mayor a menor el contenido de un array\n" +
+			"m) Salir")
+
+
+			switch(menu){
+				case "a":
+					for(i = 0 ; i < array1.length; i++){
+						if(array1[i]%2==0)
+							alert(array1[i])
+					}
+				break;
+				case "b":
+					var num= prompt("Teclee un valor");
+						for(i = 0 ; i < array2.length; i++){
+							if(num == array2[i])
+								alert("posicion")
+						}
+
+				break;
+				case "c":
+					for(i = 0; i<array1.length;i++){
+						if(array1[i]> 10)
+							alert(array1[i]);
+					}
+				break;
+				case "d":
+
+				break;
+				case "e":
+
+				break;
+				case "f":
+
+				break;
+				case "g":
+					let y = 0
+					var array3 = new Array(x);
+					 	for(i = 0 ; i <array1.length;i++){
+					 		if(array1[i]%2 == 1){
+					 			array3[y]= array1[i];
+					 			alert(array3[y]);
+					 			x++
+					 			y++
+					 		}
+					 	}
+				break;
+				case "h":
+
+				break;
+				case "i":
+
+				break;
+				case "j":
+
+				break;
+				case "k":
+
+				break;
+				case "l":
+
+				break;
+				case "m":
+					alert("Adios");
+				break;
+				default:
+					alert("No esxite una opcion con esa letra");
+				break;	
+						
+
+			}
+
+		}while(menu!="m")
+	
+	</script>
+</body>
+</html>
