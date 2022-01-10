@@ -1,0 +1,12 @@
+{
+    "name": "guille/g",
+    "type": "project",
+    "require": {
+        "phpunit/php-timer": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guille\\G\\": "src/"
+        }
+    }
+}

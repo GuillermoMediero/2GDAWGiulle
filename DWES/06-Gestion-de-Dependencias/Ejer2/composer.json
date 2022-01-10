@@ -1,0 +1,7 @@
+{
+    "name": "guille/ejer2",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.3"
+    }
+}

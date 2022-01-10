@@ -1,0 +1,1 @@
+<h1>Listado de zapatillas de la tienda <?php echo e($nombre); ?></h1><?php /**PATH /vagrant/07-Motor-dePlantillas/Ejer6/views/header.blade.php ENDPATH**/ ?>
