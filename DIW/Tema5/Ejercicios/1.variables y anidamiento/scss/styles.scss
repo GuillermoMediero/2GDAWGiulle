@@ -1,0 +1,46 @@
+$blanco:#fff;
+$gris-oscuro:#333;
+$morado:rgb(155,111,145);
+$main-width:80%;
+$tamaño:(pequeño:0.2em,normal:1em,grande:2em);
+.contenedor{
+    background-color: $blanco;
+    width: $main-width;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: $morado;   
+    ul{
+        li{
+            display: inline-block;
+            padding: 1em;
+            &:hover{
+                color: $blanco;
+            }
+            &:active{
+                color: inherit;
+            }
+        }
+    }
+}
+
+
+
+figure{
+    width: 25%;
+    padding: 1rem;
+    display: inline-block;
+    border: .1rem solid black;
+    border-radius:map-get($map:$tamaño, $key: normal);
+
+    img{
+        border-radius: map-get($map: $tamaño, $key: grande);
+        width: 100%;
+    }
+    figcaption{
+        text-align: center;
+        margin: 0.5em;
+    }
+
+}
