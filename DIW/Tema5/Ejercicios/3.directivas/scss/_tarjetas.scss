@@ -1,0 +1,21 @@
+@use 'dimensiones';
+
+$tamaño:(pequeño:0.2em,normal:1em,grande:2em);
+
+figure{
+    width: dimensiones.$tarjeta-witdh;
+    padding: 1rem;
+    display: inline-block;
+    border: .1rem solid black;
+    border-radius:map-get($map:$tamaño, $key: normal);
+
+    img{
+        border-radius: map-get($map: $tamaño, $key: grande);
+        width: 100%;
+    }
+    figcaption{
+        text-align: center;
+        margin: 0.5em;
+    }
+
+}

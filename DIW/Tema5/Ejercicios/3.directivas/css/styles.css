@@ -1,0 +1,120 @@
+nav {
+  background-color: #9b6f91;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+nav ul li:hover {
+  color: #fff;
+}
+nav ul li:active {
+  color: inherit;
+}
+
+.contenedor {
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+
+figure {
+  width: 25%;
+  padding: 1rem;
+  display: inline-block;
+  border: 0.1rem solid black;
+  border-radius: 1em;
+}
+figure img {
+  border-radius: 2em;
+  width: 100%;
+}
+figure figcaption {
+  text-align: center;
+  margin: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+tbody tr td:nth-child(1) {
+  background-color: #888888;
+}
+
+tbody tr td:nth-child(2) {
+  background-color: #cccccc;
+}
+
+tbody tr td:nth-child(3) {
+  background-color: #888888;
+}
+
+tbody tr td:nth-child(4) {
+  background-color: #cccccc;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+.btn:hover {
+  box-shadow: 0.2rem 0.2rem #888;
+}
+.btn:active {
+  background-color: orange;
+  color: white;
+}
+
+.btn-error {
+  background-color: #ff0000;
+}
+
+.btn-warning {
+  background-color: #eff178;
+}
+
+.btn-accepted {
+  background-color: #378a00;
+}
+
+.btn-normal {
+  background-color: #006eff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-0 {
+  padding: 0rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

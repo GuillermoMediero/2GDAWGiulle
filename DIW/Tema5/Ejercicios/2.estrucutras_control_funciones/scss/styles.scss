@@ -1,36 +1,98 @@
-$colores:(rojo:#ff0000,amarillo-claro:rgb(239,241,129),verde:rgb(55,138,0),azul:rgb(0,110,255));
-$botones:(error:1,warning:2,accepted:3,normal:4);
-$naranja: orange;
-$border-radio:.4rem;
+@use "sass:math";
 
-.btn{
-        padding: 10px;
-        border-radius: $border-radio;
-        display: inline-block;
-        cursor: pointer;
-        &:hover{
-            box-shadow: math.div($border-radio)#888;
-        }
+$color-error: #ff0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
 
-        &:active{
-            background-color: $naranja;
-            color: white;
-        }
+$border-radius: 0.4rem;
+
+
+$btn-colors: (
+  "error": $color-error,
+  "warning": $color-warning,
+  "accepted": $color-accepted,
+  "normal": $color-normal
+);
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: $border-radius;
+  padding: 0.5rem;
+
+  &:hover {
+    box-shadow: math.div($border-radius, 2) math.div($border-radius, 2) $color-shadow;
+  }
+
+  &:active {
+    background-color: orange;
+    color: white;
+  }
 }
 
-@each $v,$i in $botones {
-    .btn-#{v}{
-        background-color: map-get($map: $colores, $key: $i);
-    }   
+@each $k, $v in $btn-colors {
+  .btn-#{$k} {
+    background-color: $v;
+  }
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
 }
 
 
-$gris-claro:#cccccc;
-$gris-oscuro:#888888;
+$color-col-pares: #cccccc;
+$color-col-impares: #888888;
 
-@function column
 
-.row{
-    display
+@function colum-color($col-number) {
+  @if ($col-number%2 == 0) {
+    @return $color-col-pares;
+  } @else {
+    @return $color-col-impares;
+  }
 }
 
+$inicio: 1;
+$fin: 5;
+
+
+@for $num from $inicio to $fin {
+  tbody tr td:nth-child(#{$num}) {
+    background-color: colum-color($num);
+  }
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row > * {
+  border: 1px solid black;
+  height: 150px;
+  padding: 1rem;
+}
+
+$num_elementos: 8;
+
+@function anchura_col($i) {
+  @return math.div($i/$num_elementos)*100+ "%" ;
+}
+
+
+@for $i from 1 through $num_elementos {
+.row > .col-#{$i} {
+    width: #{anchura_col($i)};
+  }
+}

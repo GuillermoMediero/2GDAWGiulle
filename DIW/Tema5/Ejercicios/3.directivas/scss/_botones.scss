@@ -1,0 +1,34 @@
+@use 'colores';
+@use "sass:math";
+$border-radius: 0.4rem;
+
+$btn-colors: (
+  "error": colores.$color-error,
+  "warning": colores.$color-warning,
+  "accepted": colores.$color-accepted,
+  "normal": colores.$color-normal
+);
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: $border-radius;
+  padding: 0.5rem;
+  margin: 0 auto;
+
+  &:hover {
+    box-shadow: math.div($border-radius, 2) math.div($border-radius, 2) colores.$color-shadow;
+  }
+
+  &:active {
+    background-color: orange;
+    color: white;
+  }
+}
+
+@each $k, $v in $btn-colors {
+  .btn-#{$k} {
+    background-color: $v;
+  }
+}

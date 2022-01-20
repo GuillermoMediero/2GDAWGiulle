@@ -1,0 +1,17 @@
+@use 'colores';
+
+nav{
+    background-color: colores.$morado;   
+    ul{
+        li{
+            display: inline-block;
+            padding: 1em;
+            &:hover{
+                color: colores.$blanco;
+            }
+            &:active{
+                color: inherit;
+            }
+        }
+    }
+}

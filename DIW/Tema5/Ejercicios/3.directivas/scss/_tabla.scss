@@ -1,0 +1,22 @@
+@use 'funciones';
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+
+  $inicio: 1;
+  $fin: 5;
+  
+  
+  @for $num from $inicio to $fin {
+    tbody tr td:nth-child(#{$num}) {
+      background-color: funciones.colum-color($num);
+    }
+  }

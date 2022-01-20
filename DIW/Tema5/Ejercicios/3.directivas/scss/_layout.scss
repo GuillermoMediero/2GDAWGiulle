@@ -1,0 +1,8 @@
+@use 'dimensiones';
+@use 'colores';
+
+.contenedor{
+    background-color: colores.$blanco;
+    width: dimensiones.$main-width;
+    margin: 0 auto;
+}

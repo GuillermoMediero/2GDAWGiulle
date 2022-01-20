@@ -1,0 +1,22 @@
+/* Error: Missing argument $number2.
+ *   ,--> scss\styles.scss
+ * 105|   @return math.div($i/$num_elementos)*100+ "%" ;
+ *   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ *   '
+ *   ,--> sass:math
+ * 1 | @function div($number1, $number2) {
+ *   |           ======================= declaration
+ *   '
+ *   scss\styles.scss 105:11  anchura-col()
+ *   scss\styles.scss 112:14  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Missing argument $number2.\a   \250c \2500 \2500 > scss\\styles.scss\a 105\2502    @return math.div($i/$num_elementos)*100+ "%" ;\d\a   \2502            ^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > sass:math\a 1 \2502  @function div($number1, $number2) {\a   \2502            \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   scss\\styles.scss 105:11  anchura-col()\a   scss\\styles.scss 112:14  root stylesheet';
+}
