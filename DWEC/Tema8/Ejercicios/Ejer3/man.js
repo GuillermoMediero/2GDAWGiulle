@@ -4,7 +4,7 @@ class Contador extends HTMLElement {
     }
 
     connectedCallback (){
-        this.innerHTML = `<input type="text" id="valor"><br><br><button onclick="sumar()">+</button><input type="text" value='0' id="contador"><button onclick="restar()">-</button>`;
+        this.innerHTML = `<input type="text" id="valor" value="1"><br><br><button onclick="sumar()">+</button><input type="text" value='0' id="contador"><button onclick="restar()">-</button>`;
     }
 
 }
